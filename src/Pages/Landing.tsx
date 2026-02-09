@@ -1,5 +1,6 @@
 import { motion, scale } from "motion/react"
 import { useRef, useEffect, useState } from "react"
+import Navigation from "../Components/Navigation"
 
 function Counter() {
   const [count, setCount] = useState(0)
@@ -46,7 +47,9 @@ function Counter() {
 
 export default function Landing() {
   return (
+
     <div className="regular">
+        <Navigation />
         <div className=" border-red-600 max-w-250 text-6xl min-w-50 mx-auto px-5 md:px-20 flex flex-col justify-center h-screen">
             <motion.div initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{duration: 1}}  className="text-sm md:text-xl mb-3">Hello</motion.div>
             <motion.div initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{duration: 1.5}} id="home" className="text-3xl md:text-6xl">I am Lucid. I'm a {<a className="link" href="">VR Developer</a>} and {<a className="link" href="">Content Creator</a>} based in England.</motion.div>

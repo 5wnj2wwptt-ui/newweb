@@ -1,15 +1,19 @@
-import ReactLenis, { useLenis } from 'lenis/react'
-import './index.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './Pages/Landing'
+import NotFound from './Pages/NotFound'
 import Navigation from './Components/Navigation'
+import { Lenis } from 'lenis/react'
 
 function App() {
   return (
-    <>
-      <ReactLenis root />
-      <Navigation />
-      <Landing />
-    </>
+    <Lenis root>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+    </Lenis>
   )
 }
 
