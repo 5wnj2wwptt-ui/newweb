@@ -52,7 +52,7 @@ export default function Landing() {
         <Navigation />
         <div className=" border-red-600 max-w-250 text-6xl min-w-50 mx-auto px-5 md:px-20 flex flex-col justify-center h-screen">
             <motion.div initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{duration: 1}}  className="text-sm md:text-xl mb-3">Hello</motion.div>
-            <motion.div initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{duration: 1.5}} id="home" className="text-3xl md:text-6xl">I am Lucid. I'm a {<a className="link" href="">VR Developer</a>} and {<a className="link" href="">Content Creator</a>} based in England.</motion.div>
+            <motion.div initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{duration: 1.5}} id="home" className="text-3xl md:text-6xl">I am Lucid. I'm a {<a className="link" href="#dev">VR Developer</a>} and {<a className="link" href="#content">Content Creator</a>} based in England.</motion.div>
 
 
             <motion.a initial={{ opacity: 0 }} animate={{ opacity: [0.7, 1, 0.7] }} whileHover={{ scale: 1.2 }} transition={{opacity: {duration: 3, repeat: Infinity, ease: "easeInOut"}, scale: {duration: 0.2}}} href="#content" className="bg-[#232323] w-5 h-5 self-center absolute mt-100 rounded-full cursor-pointer"/>
