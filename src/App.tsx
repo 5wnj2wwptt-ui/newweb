@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './Pages/Landing'
 import NotFound from './Pages/NotFound'
-import Navigation from './Components/Navigation'
 import { Lenis } from 'lenis/react'
 
 function App() {

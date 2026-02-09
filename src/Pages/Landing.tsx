@@ -1,4 +1,4 @@
-import { motion, scale } from "motion/react"
+import { motion } from "motion/react"
 import { useRef, useEffect, useState } from "react"
 import Navigation from "../Components/Navigation"
 
