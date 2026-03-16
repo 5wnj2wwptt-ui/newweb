@@ -75,7 +75,7 @@ export default function Landing() {
                 I have been creating VR projects since 2023, with my most recent being {<a className="link" href="https://marmovr.com">Marmo</a>}. I've built a strong skill set in <span className="text-blue-500">Unity</span> and 3D modelling in <span className="text-blue-500">Blender</span>.
             </motion.div>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration: 1}} className="text-sm md:text-base mb-4 opacity-50">
-                Marmo videos
+                Marmo videos from the community
             </motion.div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-16">
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className="aspect-video w-full">
