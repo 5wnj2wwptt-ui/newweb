@@ -80,7 +80,7 @@ export default function Landing() {
                 Currently learning
             </motion.div>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration: 1.5}} className="text-3xl md:text-6xl">
-                I am expanding into web development, focusing on frontend with <span className="text-blue-500">React</span>, and also starting <span className="text-blue-500">C++</span>.
+                I am expanding into web development, focusing on frontend with <span className="text-blue-500">React</span>, and I am interested in minimalist design.</span>.
             </motion.div>
         </div>
         <div id="contact" className=" border-red-600 max-w-250 text-6xl min-w-50 mx-auto px-5 md:px-20 flex flex-col justify-center h-screen">
